@@ -1,0 +1,125 @@
+body{
+  width: 100%;
+}
+.my-box-shadow{
+      box-shadow: -5px 2px 54px -9px rgba(0, 53, 102, 1);
+}
+.text-color{
+  color: #1ABC9C !important;
+}
+/* Sleek Dark Blue Navbar */
+.custom-bg {
+  background-color: #003566 !important;
+}
+
+/* ACTIVE NAV LINK STYLE */
+.navbar form button:hover{
+  background: #1ABC9C;
+  border: 1px solid #1ABC9C;
+  color: #003566;
+}
+.nav-link.active {
+  color: #1ABC9C !important;
+  border-bottom: 2px solid #1ABC9C;
+  font-weight: bold;
+  background-color: rgba(62, 246, 176, 0.1);
+  border-radius: 6px;
+  padding: 6px 12px;
+  transition: all 0.6s ease;
+}
+.nav-link:hover{
+  color: #1ABC9C !important;
+}
+
+/* LOGIN & REGISTER */
+.content{
+    box-shadow: -5px 2px 54px -9px rgba(0, 53, 102, 1);
+    border-radius: 8px;
+    background-color: #003566;
+}
+input:focus,
+select:focus{
+    box-shadow: 0 0 0 0 transparent !important ;
+        border-color: #003566;
+}
+input,select{
+    background-color: white !important;
+    outline: 0 ;
+    border: 1px solid #003566;
+    transition: all 0.5s ease;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+}
+.content-btn{
+  border: 1px solid #1ABC9C;
+  color: #003566;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.content-btn:hover{
+    background-color: #1ABC9C !important;
+    color: #003566 !important;
+}
+
+
+
+
+.clamp-2-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news-section {
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+
+
+.news-scroll-container {
+  overflow-y: auto;
+  max-height: 600px; /* You can adjust this */
+  padding-right: 10px;
+}
+
+/* Optional: style the scrollbar */
+.news-scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+.news-scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+
+
+
+.pagination .page-link {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  color: #003566;
+  transition: background-color 0.2s ease;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #003566;
+  color: #1ABC9C;
+  border-color: #003566;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+.text-danger {
+  color: #dc3545 !important;
+}
+.fpl-arrow {
+  font-size: 1.2rem;
+  margin-right: 4px;
+}
