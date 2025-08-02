@@ -144,7 +144,7 @@ export default function Navbar({ logout }) {
               <li className="nav-item"><NavLink className="nav-link text-white fw-bold" to="Wallet">Wallet</NavLink></li>
               <li className="nav-item"><NavLink className="nav-link text-white fw-bold" to="EducationalResources">Education</NavLink></li>
               <li className="nav-item"><NavLink className="nav-link text-white fw-bold" to="TradingFeatures">Transactions</NavLink></li>
-              <li className="nav-item p-1">
+              <li className="nav-item p-1 mt-1">
                 <button onClick={logout} className="btn btn-danger btn-sm ms-2">Logout</button>
               </li>
             </ul>
