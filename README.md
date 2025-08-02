@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 📊 Stock Market Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A real-time stock market dashboard that provides interactive data visualization, live stock tracking, and performance analytics. This was developed as a **graduation project** by a team of six, combining front-end development, machine learning, business intelligence, and back-end development.
 
-## Available Scripts
+## 🚀 Overview
 
-In the project directory, you can run:
+The application displays up-to-date market information, including:
+- Real-time stock prices
+- Historical trends
+- Performance insights
+- Predictive analysis using machine learning
+- Interactive Power BI dashboards
 
-### `npm start`
+Users can explore market data intuitively through dynamic UI elements and responsive design.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 👨‍💻 My Role
 
-### `npm test`
+I was part of the **front-end team** and:
+- **Built the full UI** using **React** and **Bootstrap**
+- Developed some components from scratch
+- Ensured mobile responsiveness and optimized layout for various devices
+- Translated the project’s vision into a seamless and user-friendly interface
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📸 Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🏠 Home
+![Home](./screenshots/Home.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📊 Dashboard
+![Dashboard](./screenshots/Dashboard.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔐 Login
+![Login](./screenshots/Login.jpg)
 
-### `npm run eject`
+### 📝 Register
+![Register](./screenshots/Register.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📚 Educational
+![Educational](./screenshots/Educational.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📰 News
+![News](./screenshots/News.jpg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📰 News Details
+![News Details](./screenshots/NewsDetails.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🔍 Search Sidebar
+![Search](./screenshots/Search.png)
 
-## Learn More
+### 🔎 Search Page
+![Search Page](./screenshots/SearchPage.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 📈 Predict Stock
+![Predict](./screenshots/Predict.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 💼 Wallet
+![Wallet](./screenshots/Wallet.jpg)
 
-### Code Splitting
+### 💳 Transaction
+![Transaction](./screenshots/Transactionjpg.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🧾 Transaction History
+![Transaction History](./screenshots/TransactionHistory.jpg)
 
-### Analyzing the Bundle Size
+### 📦 Stock Options
+![Stock Options](./screenshots/StockOpttions.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🦶 Footer
+![Footer](./screenshots/Footer.jpg)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📈 Features
 
-### Advanced Configuration
+- ✅ Real-time stock prices
+- ✅ Company search and filtering
+- ✅ Visual trends with charting libraries
+- ✅ Power BI dashboard embedded for business insights
+- ✅ Machine learning model predicts stock price direction
+- ✅ Responsive design for mobile/tablet/desktop
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🧠 Power BI & Machine Learning
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Power BI**: Interactive dashboards were created to display historical stock data, sector performance, and technical indicators.
+- **ML Prediction**: A trained machine learning model predicts short-term stock trends based on historical performance and external indicators.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Bootstrap 
+- **Visualization**: Power BI (embed)
+- **Machine Learning**: Python, Scikit-learn (served predictions via API)
+- **Backend**: C#, .NET 8, SQL Server
+
+---
+
+## 📁 Getting Started
+
+```bash
+git clone https://github.com/Abdelrahmanjr246/stock-market.git
+cd stock-market
+npm start
+npm install
+npm run dev
